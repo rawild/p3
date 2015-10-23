@@ -1,0 +1,21 @@
+body {
+  padding-top: 50px;
+  margin: auto;
+  text-align: center;
+}
+input {
+  margin-top: 20px;
+}
+.widgets {
+  min-width: 800px;
+  margin: auto;
+}
+.contents {
+
+}
+.results{
+  text-align: left;
+  background: #d9d9e0;
+  border-radius: 10px;
+  padding: 20px;
+}
