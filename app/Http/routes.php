@@ -17,5 +17,4 @@ Route::get('/', function () {
 
 Route::get('/text/results', 'BFController@getTextResults');
 Route::get('/users/results', 'BFController@getUsersResults');
-
-Route::get('logs', '\Rap2hpoutre\LaravelLogViewer\LogViewerController@index');
+;

@@ -15,7 +15,6 @@
     <body>
       <div class="container theme-showcase" role="main">
         <header>
-          <img alt='Silly Picture' src="/images/clock.png"/>
           @yield('header')
         </header>
         <section class="contents">

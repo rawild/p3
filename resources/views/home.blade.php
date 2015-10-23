@@ -1,9 +1,9 @@
-@extends('layouts.master')
+
+@extends('layouts.home')
 
 
 
-
-@section('header')
+@section('miniheader')
 
     <h1>Save Time Developing</h1>
     <p>Below are some tools to help you develop.</p>
@@ -11,7 +11,7 @@
 
 @stop
 
-@section('contents')
+@section('homecontents')
 <div class="widgets">
   <div class="row row-centered">
       <div class="col-md-6 col-centered">
@@ -23,7 +23,7 @@
               <form method='GET' action='text/results'>
 
                 Number of Paragraphs:
-                <input type='number' name='pnum' min="1" max="10" value="4">
+                <input type='number' name='pnum' min="1" max="10" value="4"> (Max 10)
                 <br>
                 <input class="btn btn-default" type='submit' Name='Submit' value='Random Text Please'>
               </form>
@@ -38,7 +38,7 @@
           <div class="panel-body">
               <form method='GET' action='users/results'</h3>
                 Number of Users:
-                <input type='number' name='unum' min="1" max="20" value="6">
+                <input type='number' name='unum' min="1" max="100" value="6"> (Max 100)
                 <br>
                 <input class="btn btn-default" type='submit' Name='Submit' value='Random Granny Users Please'>
               </form>

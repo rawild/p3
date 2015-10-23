@@ -1,18 +1,19 @@
-@extends('layouts.master')
+@extends('layouts.results')
 
 @section('title')
-  Generated Random Text
+  Generated Random Grannies
 @stop
 
-@section('header')
+@section('resultsheader')
 <h2>Some Granny users for you</h2>
 <p>Who doesn't like a Grannie user?</p>
 @stop
 
-@section('contents')
+@section('resultcontents')
   <?php foreach ($users as $value): ?>
-    <p>Name: {{ $value['name'] }}</p><br>
-    <p>DOB: {{ $value['dob'] }}</p><br>
+    <br>
+    <p>Name: {{ $value['name'] }}</p>
+    <p>Birth Date: {{ $value['dob'] }}</p><br>
 
   <?php endforeach; ?>
 @stop

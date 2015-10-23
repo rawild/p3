@@ -45,17 +45,5 @@ class BFController extends Controller {
         return view('users.results')->with(['users' => $users]);
     }
 
-    /**
-     * Responds to requests to GET /books/create
-     */
-    public function getCreate() {
-        return 'Form to create a new book';
-    }
-
-    /**
-     * Responds to requests to POST /books/create
-     */
-    public function postCreate() {
-        return 'Process adding new book';
-    }
+    
 }
