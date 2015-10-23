@@ -40,7 +40,7 @@
                 Number of Users:
                 <input type='number' name='unum' min="1" max="100" value="6"> (Max 100)
                 <br>
-                <input class="btn btn-default" type='submit' Name='Submit' value='Random Granny Users Please'>
+                <input class="btn btn-default" type='submit' Name='Submit' value='Random Users Please'>
               </form>
           </div>
         </div>
